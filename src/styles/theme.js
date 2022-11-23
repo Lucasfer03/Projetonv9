@@ -8,6 +8,8 @@ export default {
         WHITE: "#FFFFFF",
         WHITE_TEXT: "#F4EDE8",
         BUTTON_TEXT: "#312E38",
+        SUBTITLE:"#CAC4CF",
+
 
         PINK: "#FF859B",
         GRAY: "#948F99",
