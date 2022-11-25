@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.header`
   grid-area: header;
@@ -17,7 +18,7 @@ export const Container = styled.header`
   padding: 0 80px;
 
 > h1 {
-    display: flex;
+  display: flex;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -34,7 +35,7 @@ export const Search = styled.div`
   padding: 0 64px;
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
 

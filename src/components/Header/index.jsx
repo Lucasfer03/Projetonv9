@@ -9,7 +9,7 @@ export function Header(){
             <Search>
               <Input placeholder="Pesquisa pelo título" icon={FiSearch}/>
             </Search>
-            <Profile>
+            <Profile to="/profile">
               <div> 
                 <span>Lucas Fernandes</span>
                 <strong>Sair</strong>

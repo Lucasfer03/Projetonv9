@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
     width: 100%;
@@ -19,7 +20,7 @@ export const Brand = styled.div`
     }
 `;
 
-export const NewMovie = styled.button`
+export const NewMovie = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +30,7 @@ export const NewMovie = styled.button`
     background-color: ${({ theme }) => theme.COLORS.PINK};
     font-size: 16px;
     border-radius: 8px;
+    color: black;
 `;
 
 export const Content = styled.div`

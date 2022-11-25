@@ -9,7 +9,7 @@ export function Home() {
         <Header/>
         <Brand>
         <h1>Meus Filmes</h1>
-        <NewMovie>
+        <NewMovie to="/new">
             <IoAddOutline/> Adicionar Filme
         </NewMovie>
         </Brand>
